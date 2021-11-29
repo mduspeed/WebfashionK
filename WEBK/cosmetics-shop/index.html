@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://bloggiamgia.vn/wp-content/uploads/2020/06/logo_shopee-300x300.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Block Element Modifier-->
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item--has-qr"> 
+                            핸드폰 app 열림 
+                            <div class="header_qr">
+                                <img src="./assets/img/coupangQR.png" alt="QR code" class="header_qr-img">
+                               <div class="header_qr-apps">
+                                   <a href="" class="header__qr-link">
+                                       
+                                       <img src="./assets/img/chplaystore.png" alt="chplaystore" class="header_qr-download-img">
+                                    </a>
+                                    
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/aple_store.png" alt="aple_store" class="header_qr-download-img">
+                                    </a>
+                               </div>
+                            </div>
+                        </li>
+                        <li class="header__nav-item"> 
+                            <span class="header__nav-item-title--no-pointer">입점신청</span>
+                            
+                        </li>
+                    </ul>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-item--strong">로그인</li>
+                        <li class="header__nav-item header__nav-item--strong">회원가입</li>
+                        <li class="header__nav-item">
+                            <a href="" class="header__nav-item-link">알림</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <i class="header__navbar-icon far fa-question-circle"></i>
+                            <a href="" class="header__nav-item-link">고객센터</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <!-- HEADER WITH SEARCH -->
+                <div class="header-with-search">
+                    <div class="header__catalo">
+                        <i class="header__catalo-icon fas fa-poll-h"></i>
+                        <a class ="header__catalo-text"href="">전체 카테고리</a>
+                    </div>
+                    <div class="header__logo">
+                        <img
+                            class="header__logo-img"
+                            src="https://mylogoshop.com/newmlstest/wp-content/uploads/sites/158/2017/10/Logo_Main.png"
+                            srcset="https://mylogoshop.com/newmlstest/wp-content/uploads/sites/158/2017/10/Logo_Main.png 1x, https://mylogoshop.com/wp-content/uploads/2017/10/Logo_Retina.png 2x"
+                            width=""
+                            height=""
+                            alt=" Logo"
+                            data-retina_logo_url="https://mylogoshop.com/wp-content/uploads/2017/10/Logo_Retina.png"
+                        />
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-seclect">
+                            <span class="header__search-seclect-label">전체</span>
+                            <i class="header__search-seclect-icon fas fa-caret-down"></i>
+                        </div>
+                        <input type="text" class="header__search-input" placeholder="찾고 싶은 상품을 검색해보세요!" >
+                    </div>
+                    <div class="header__menu">
+                        <div class="header__people">
+                            <i class="header__people-icon far fa-user">
+                                <span class="header__people-text">마이샵</span>
+                            </i>
+                            
+                            
+                        </div>
+                        <!-- Cart layout -->
+                    <div class="cart">
+                        <div class="cart-wrap">
+                            <i class="cart__icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-text">장바구니</span>
+                            <span class="cart-notice">4</span>
+
+                            <!-- NO cart: cart__list--no-cart -->
+                            <div class="cart__list">
+                                <img src="./assets/img/no_cart.webp" alt="" class="cart__no-cart-img">
+                                <span class="cart__list-no-cart-msg">
+                                    상품이 없음
+                                </span>
+
+                                <h4 class="cart-heading">담긴 상품</h4>
+                                <ul class="cart-list-item">
+                                    <!-- Cart-item -->
+                                    <li class="cart-item">
+                                        <img  class="cart-image" src="https://images.innisfree.co.kr/upload/product/30816_l_S_320.jpg?T202111300647" alt="그린티 씨드 세럼 세트" onerror="this.src='/kr/ko/resources/error/img/300x300.png'">
+                                            
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">그린티 씨드 세럼 세트</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">27,000원</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    
+                                                </span>
+                                                <span class="cart-item-remove">삭제</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img class="cart-image" src="https://images.innisfree.co.kr/upload/product/29538_l_S_320.jpg?T202111300647" alt="블랙티 앰플 기획 세트 [대용량]" onerror="this.src='/kr/ko/resources/error/img/300x300.png'">
+                                            
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">블랙티 앰플 기획 세트 [대용량]</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">95,000원</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    
+                                                </span>
+                                                <span class="cart-item-remove">삭제</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img  class="cart-image" src="https://images.innisfree.co.kr/upload/product/16643_l_S_320.jpg?T202111300647" alt="한란 슬리핑 마스크" onerror="this.src='/kr/ko/resources/error/img/300x300.png'">
+                                            
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">한란 슬리핑 마스크</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">16,000원</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qnt">5</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    
+                                                </span>
+                                                <span class="cart-item-remove">삭제</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img class="cart-image" src="https://images.innisfree.co.kr/upload/product/23956_l_S_320.jpg?T202111300647" alt="청보리 필링 토너" onerror="this.src='/kr/ko/resources/error/img/300x300.png'">
+                                            
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">청보리 필링 토너</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">13,000원</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    
+                                                </span>
+                                                <span class="cart-item-remove">삭제</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+
+                                <a href="" class="cart-view-cart btn btn--primary">장바구니보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán Chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                카테고리
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">화장품</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">의류</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">속옷/잠옷</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">신발</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">가방/잡화</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                        
+                            <div class="select-input">
+                                <span class="select-input__label">브랜드</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                <!-- List options -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">이니스프리</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">3CE</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">The Face Shop</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">NATURE REPUBLIC</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="select-input">
+                                <span class="select-input__label">상품 상대</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">새 상품</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">박스훼손</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">재포장</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="select-input">
+                                <span class="select-input__label">색상</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">블랙</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">네이비</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">그레이</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">실버</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">레드</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">오렌지</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="select-input">
+                                <span class="select-input__label">사이즈</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">S(90)</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">M(95)</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">L(100)</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">XL(105)</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">XXL(110)</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">3XL(115)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="select-input">
+                                <span class="select-input__label">단가</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                <!-- List options -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">단가: 높음</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">단가: 낮음</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích Dụng cụ & Thiết
+                                        bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/30816_l_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 씨드 세럼 세트</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">18,900원</span>
+                                            <span class="home-product-item__price-current">27,000원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">603 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/30883_p_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 프레시 샴푸바</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15,000원</span>
+                                            <span class="home-product-item__price-current">10,500</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">200 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/30821_l_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 씨드 세럼 [대용량]</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">42,000원</span>
+                                            <span class="home-product-item__price-current">29,400원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">468 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/31082_l_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">블랙티 유스 인핸싱 앰플 [대용량] + 테이블웨어 세트</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">77,500원</span>
+                                            <span class="home-product-item__price-current">52,000원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1003 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/31083_l_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 씨드 세럼 [대용량] + 테이블웨어 세트</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">66,500원</span>
+                                            <span class="home-product-item__price-current">44,300원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">394 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/19376_l_S_320.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 립 슬리핑 마스크</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">12,000원</span>
+                                            <span class="home-product-item__price-current">20,000</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">2004 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>LOVE</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">40%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/mainMng/BM06_23_pc.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">[진정/수분/미백/결정돈]이 필요한 순간 마스크</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1,000원</span>
+                                            <span class="home-product-item__price-current">1500원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1506 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>LOVE</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">34%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/mainMng/BM06_21_pc.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">듀이 틴트 립밤</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15,000원</span>
+                                            <span class="home-product-item__price-current">19,900원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">263 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>LOVE</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/mainMng/BM06_25_pc.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">비자 시카 밤</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15,400원</span>
+                                            <span class="home-product-item__price-current">20,482원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1782 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/mainMng/BM06_12_pc.jpg?T202111300647);">
+                                        </div>
+                                        <h4 class="home-product-item__name">마이 퍼퓸드 바디 - 바디 로션</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">14,000원</span>
+                                            <span class="home-product-item__price-current">18,62원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">88 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>NEW</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://images.innisfree.co.kr/upload/product/20418_l_S_320.jpg?T202111300757https://cf.shopee.vn/file/2658068e2c5d78127964dc0848c1feff_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">그린티 씨드 크림</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15,400원</span>
+                                            <span class="home-product-item__price-current">22,000원</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1685 리뷰</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">이니스프리</span>
+                                            <span class="home-product-item__origin-name">국내산</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>BEST</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">할인</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">MYSHOP소개</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">채용전보</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">이용약관</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 href="" class="footer__heading">공지사항</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">고객센터</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link"></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                                       
+                </div>
+                
+                <div class="row footer2">
+                    
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading footer__heading2">MYSHOP앱으로 보기</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/coupangQR.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/chplaystore.png" alt="Google Play"
+                                        class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/aple_store.png" alt="App Store"
+                                        class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading footer__heading2">MYSHOP(주)</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item footer-item__2">
+                                <a href="" class="footer-item__link">대표이사 :</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">사업자 등록번호 : 120-00-00000</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">통신판매업신고 : 2000-서울송파-0000</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading footer__heading2">365고객센터</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item footer-item__2">
+                                <a href="" class="footer-item__link">TEL. (02) 970.323</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">01811 서울시 노원구 공릉로 232 서울과학기술대학교</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">email:help@myshop.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text"></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body"> -->
+    <!-- Register form -->
+    <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn"> 
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn"> 
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu"> 
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với F8-Shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+
+    <!-- Login form -->
+    <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn"> 
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn"> 
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+</html>
