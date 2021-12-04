@@ -1,0 +1,117 @@
+<!--MODAL -->
+    <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body"> 
+        
+            <!-- register form-->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading"> 로그인</h3>
+                        <span class="auth-form__switch-btn">회원가입</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            
+                    
+                            <input type="text" class="auth-form___input" placeholder="아이디(이메일)">
+                        </div>
+                        <div class="auth-form__group">
+                            
+                            <input type="password" class="auth-form___input" placeholder="비밀번호">
+                        </div>
+                        <div class="auth-form__group">
+                            
+                            <input type="password" class="auth-form___input" placeholder="비밀번호 확인">
+                        </div>
+                        <div class="auth-form__group">
+                            
+                            <input type="text" class="auth-form___input" placeholder="이름">
+                        </div>
+                        <div class="auth-form__group">
+                            
+                            <input type="text" class="auth-form___input" placeholder="휴대폰 번호">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            
+                        </p>
+                        
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal ">처음으로</button>
+                        <button class="btn btn--primary">동의하고 가입하기
+                        </button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials---facebok btn btn--size-s btn--with-icon">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Facebook으로 시작하기
+                        </span>
+                        
+                    </a>
+                    <a href="" class="auth-form__socials---google btn btn--size-s btn--with-icon">
+                        <i class="fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Google으로 시작하기
+                        </span>
+                    </a>
+                </div>
+
+
+            </div>  -->
+            <!-- login form-->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">로그인</h3>
+                        <span class="auth-form__switch-btn">회원가입</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            
+                    
+                            <input type="text" class="auth-form___input" placeholder="아이디(이메일)">
+                        </div>
+                        <div class="auth-form__group">
+                            
+                            <input type="password" class="auth-form___input" placeholder="비밀번호">
+                        </div>
+                        
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__hefp">
+                            <a href="" class="auth-form__hefp-link"></a>
+                            <a href="" class="auth-form__hefp-link auth-form__hefp-forgot">아이디(이메일)/비밀번호 찾기</a>
+                        </div>
+                        
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal ">처음으로</button>
+                        <button class="btn btn--primary">동의하고 가입하기
+                        </button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials---facebok btn btn--size-s btn--with-icon">
+                        <i class="fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Facebook으로 시작하기
+                        </span>
+                        
+                    </a>
+                    <a href="" class="auth-form__socials---google btn btn--size-s btn--with-icon">
+                        <i class="fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Google으로 시작하기
+                        </span>
+                    </a>
+                </div>
+
+
+            </div>  
